@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.fullcycle.admin.catolog.infrastructure.MainTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-08-22T16:55:26" hostname="zenvia-005984" time="0.013">
+  <properties/>
+  <testcase name="testMain()" classname="com.fullcycle.admin.catolog.infrastructure.MainTest" time="0.013"/>
+  <system-out><![CDATA[Hello world!
+com.fullcycle.admin.catolog.domain.Category@60099951
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
