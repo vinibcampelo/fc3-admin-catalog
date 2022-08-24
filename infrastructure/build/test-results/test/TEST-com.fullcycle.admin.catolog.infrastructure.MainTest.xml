@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.fullcycle.admin.catolog.infrastructure.MainTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-08-24T02:47:35" hostname="zenvia-005984" time="0.014">
+<testsuite name="com.fullcycle.admin.catolog.infrastructure.MainTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-08-24T20:06:13" hostname="zenvia-005984" time="0.013">
   <properties/>
-  <testcase name="testMain()" classname="com.fullcycle.admin.catolog.infrastructure.MainTest" time="0.014"/>
+  <testcase name="testMain()" classname="com.fullcycle.admin.catolog.infrastructure.MainTest" time="0.013"/>
   <system-out><![CDATA[Hello world!
-com.fullcycle.admin.catolog.domain.category.Category@ceeee6fc
+com.fullcycle.admin.catolog.domain.category.Category@2bf57679
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

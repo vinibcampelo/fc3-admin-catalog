@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.fullcycle.admin.catolog.domain.category.CategoryTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2022-08-24T20:05:24" hostname="zenvia-005984" time="0.024">
+<testsuite name="com.fullcycle.admin.catolog.domain.category.CategoryTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2022-08-24T20:38:55" hostname="zenvia-005984" time="0.022">
   <properties/>
-  <testcase name="givenAnInvalidEmptyNameLengthMoreThen255_whenCallNewCategoryAndValidate_thenShouldReceivedError()" classname="com.fullcycle.admin.catolog.domain.category.CategoryTest" time="0.015"/>
+  <testcase name="givenAValidActiveCategory_whenCallDeactivate_ThenReturnCategoryInactivated()" classname="com.fullcycle.admin.catolog.domain.category.CategoryTest" time="0.013"/>
+  <testcase name="givenAnInvalidEmptyNameLengthMoreThen255_whenCallNewCategoryAndValidate_thenShouldReceivedError()" classname="com.fullcycle.admin.catolog.domain.category.CategoryTest" time="0.001"/>
   <testcase name="givenAnInvalidName_whenCallNewCategoryAndValidate_thenShouldReceivedError()" classname="com.fullcycle.admin.catolog.domain.category.CategoryTest" time="0.001"/>
   <testcase name="givenAnInvalidEmptyNameLengthLessThen3_whenCallNewCategoryAndValidate_thenShouldReceivedError()" classname="com.fullcycle.admin.catolog.domain.category.CategoryTest" time="0.001"/>
   <testcase name="givenAValidParams_whenCallNewCategory_thenInstantiateACategory()" classname="com.fullcycle.admin.catolog.domain.category.CategoryTest" time="0.001"/>
-  <testcase name="givenAValidEmptyDescription_whenCallNewCategoryAndValidate_thenShouldReceivedError()" classname="com.fullcycle.admin.catolog.domain.category.CategoryTest" time="0.002"/>
+  <testcase name="givenAValidEmptyDescription_whenCallNewCategoryAndValidate_thenShouldReceivedError()" classname="com.fullcycle.admin.catolog.domain.category.CategoryTest" time="0.001"/>
   <testcase name="givenAnInvalidEmptyName_whenCallNewCategoryAndValidate_thenShouldReceivedError()" classname="com.fullcycle.admin.catolog.domain.category.CategoryTest" time="0.001"/>
   <testcase name="givenAValidFalseIsActive_whenCallNewCategoryAndValidate_thenShouldReceivedError()" classname="com.fullcycle.admin.catolog.domain.category.CategoryTest" time="0.001"/>
+  <testcase name="givenAValidInactiveCategory_whenCallActivate_ThenReturnCategoryActivated()" classname="com.fullcycle.admin.catolog.domain.category.CategoryTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
